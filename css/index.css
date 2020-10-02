@@ -23,14 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
-
-
-
-
 /* HTML5 display-role reset for older browsers */
-
-
 .lambda{
     display: flex;
     justify-content: space-around;
@@ -44,29 +37,14 @@ time, mark, audio, video {
     letter-spacing: 1.5px;
     font-size: 18px;    
     }
-
-    .timelapse{
+    .title-image{
         display:flex;
         justify-content: center;
     }
-    .timelapse img{
+    .title-image img{
         margin-top: 40px;
         margin-bottom: 25px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section,  {
 	display: block;
@@ -154,6 +132,39 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
