@@ -165,6 +165,29 @@ p {
 }
 
 
+.title-text{
+    display: flex;
+    flex-direction: column;
+
+}
+.about-title{
+    font-size: 24px;
+
+    margin-left: 5%;
+}
+.title-text p{
+    font-size: 16px;
+    border-bottom: 2px dashed black;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
 .middle-about-page{
     display:flex;
     flex-flow: wrap;
