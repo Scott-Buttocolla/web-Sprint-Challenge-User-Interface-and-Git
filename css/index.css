@@ -165,6 +165,20 @@ p {
 }
 
 
+.middle-about-page{
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.subtitle{
+    color:Black;
+}
+
+
+
+
+
 
 .bottom-content {
     display: flex;
