@@ -24,12 +24,42 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+
+/* added header image and clickable links, could not align with rest of document, add
+fixes to correct spacing issue so outside items line up with each other from top to bottom */
+.lambda{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;   
+}
+.lambda a{
+    color:black;
+    text-decoration: none;
+    align-self: flex-end;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 18px;    
+    }
+    .title-image{
+        display:flex;
+        justify-content: center;
+    }
+    .title-image img{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+
+
+
+
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section,  {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -46,31 +76,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,13 +102,12 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* home section was added from master no edits at this time*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,7 +134,102 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* home content adding color to each individual box in the list */
 
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+.title-text{
+    display: flex;
+    flex-direction: column;
+}
+.about-title{
+    font-size: 24px;
+    margin-left: 5%;
+}
+.title-text p{
+    font-size: 16px;
+    border-bottom: 2px dashed black;
+    padding-bottom: 5%;
+}
+
+/* about section includes all the middle content around the images, add links to learn more later
+and possbly turn pictures into links as well with learm more link and proper animation to
+show it can be clicked*/
+.middle-about-page{
+    display:flex;
+    flex-wrap: wrap;    
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+/* need to work on proper box to align items correctly 
+to avoid padding usage, fix at later time */
+.subtitle{ 
+    color:Black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top:6px;
+}
+.middle-about-page a{
+    color:black;
+    font-size: 16px;
+    border:2px solid black;
+    text-decoration: none;
+    text-align: center;
+    width:auto;
+    height:30%;
+    padding:5px 15px 5px 15px;
+    border-radius: 15%;
+}
+.image-text p{ 
+    max-width: 400px;
+    margin-bottom:8%
+}
+.image-text{
+    margin-bottom: 5%;
+    border-bottom: 1px dashed lightgray;
+    padding-bottom: 30px;
+}
+
+
+/* about section below is for the Let's work together portion */
+.under-body{
+    margin-bottom: 6%;    
+}
+.under-body h1 {
+    font-size: 20px;
+}
+.under-body p{
+    font-size: 16px;
+}
+/* about section below was untouched and was from the master file*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
