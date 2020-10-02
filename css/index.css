@@ -194,7 +194,9 @@ p {
 
 .subtitle{
     color:Black;
-    border: 2px solid black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top:6px;
 
 }
 .middle-about-page a{
@@ -208,19 +210,11 @@ p {
     padding:5px 15px 5px 15px;
     border-radius: 15%;
 }
-.middle-about-page p{
-    max-width: 100px;
+.image-text p{
+    color:green;
+    max-width: 400px;
+    margin-bottom:8%
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
