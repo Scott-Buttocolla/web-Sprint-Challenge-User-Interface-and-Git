@@ -24,6 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+
+/* added header image and clickable links, could not align with rest of document, add
+fixes to correct spacing issue so outside items line up with each other from top to bottom */
 .lambda{
     display: flex;
     justify-content: space-around;
@@ -45,6 +49,11 @@ time, mark, audio, video {
         margin-top: 40px;
         margin-bottom: 25px;
     }
+
+
+
+
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section,  {
 	display: block;
@@ -67,31 +76,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -99,13 +102,12 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* home section was added from master no edits at this time*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -132,6 +134,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* home content adding color to each individual box in the list */
 
 .boxes .box:nth-child(1) {
     background-color: teal;
@@ -177,20 +180,17 @@ p {
     padding-bottom: 5%;
 }
 
-
-
-
-
-
-
-
+/* about section includes all the middle content around the images, add links to learn more later
+and possbly turn pictures into links as well with learm more link and proper animation to
+show it can be clicked*/
 .middle-about-page{
     display:flex;
     flex-wrap: wrap;    
     justify-content: space-evenly;
     padding-top: 5%;
- 
 }
+/* need to work on proper box to align items correctly 
+to avoid padding usage, fix at later time */
 .subtitle{ 
     color:Black;
     font-size: 20px;
@@ -219,7 +219,7 @@ p {
 }
 
 
-
+/* about section below is for the Let's work together portion */
 .under-body{
     margin-bottom: 6%;    
 }
@@ -229,16 +229,7 @@ p {
 .under-body p{
     font-size: 16px;
 }
-
-
-
-
-
-
-
-
-
-
+/* about section below was untouched and was from the master file*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
