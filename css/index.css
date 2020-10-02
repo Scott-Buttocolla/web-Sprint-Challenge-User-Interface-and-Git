@@ -188,16 +188,14 @@ p {
     display:flex;
     flex-wrap: wrap;    
     justify-content: space-evenly;
-    padding-top: 5%; 
+    padding-top: 5%;
+ 
 }
-
-
-.subtitle{
+.subtitle{ 
     color:Black;
     font-size: 20px;
     letter-spacing: 1px;
     padding-top:6px;
-
 }
 .middle-about-page a{
     color:black;
@@ -210,17 +208,27 @@ p {
     padding:5px 15px 5px 15px;
     border-radius: 15%;
 }
-.image-text p{
-    color:green;
+.image-text p{ 
     max-width: 400px;
     margin-bottom:8%
+}
+.image-text{
+    margin-bottom: 5%;
+    border-bottom: 1px dashed lightgray;
+    padding-bottom: 30px;
 }
 
 
 
-
-
-
+.under-body{
+    margin-bottom: 6%;    
+}
+.under-body h1 {
+    font-size: 20px;
+}
+.under-body p{
+    font-size: 16px;
+}
 
 
 
