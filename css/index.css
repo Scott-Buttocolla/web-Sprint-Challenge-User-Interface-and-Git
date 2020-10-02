@@ -163,22 +163,18 @@ p {
 .boxes .box:nth-child(10) {
     background-color: dodgerblue;
 }
-
-
 .title-text{
     display: flex;
     flex-direction: column;
-
 }
 .about-title{
     font-size: 24px;
-
     margin-left: 5%;
 }
 .title-text p{
     font-size: 16px;
     border-bottom: 2px dashed black;
-    padding-bottom: 15px;
+    padding-bottom: 5%;
 }
 
 
@@ -190,13 +186,51 @@ p {
 
 .middle-about-page{
     display:flex;
-    flex-flow: wrap;
+    flex-wrap: wrap;    
     justify-content: space-evenly;
+    padding-top: 5%; 
 }
+
 
 .subtitle{
     color:Black;
+    border: 2px solid black;
+
 }
+.middle-about-page a{
+    color:black;
+    font-size: 16px;
+    border:2px solid black;
+    text-decoration: none;
+    text-align: center;
+    width:auto;
+    height:30%;
+    padding:5px 15px 5px 15px;
+    border-radius: 15%;
+}
+.middle-about-page p{
+    max-width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
