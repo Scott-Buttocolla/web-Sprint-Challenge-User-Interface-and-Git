@@ -23,13 +23,56 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
+
+
+
 /* HTML5 display-role reset for older browsers */
+
+
+.lambda{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;   
+}
+.lambda a{
+    color:black;
+    text-decoration: none;
+    align-self: flex-end;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 18px;    
+    }
+
+    .timelapse{
+        display:flex;
+        justify-content: center;
+    }
+    .timelapse img{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section,  {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
